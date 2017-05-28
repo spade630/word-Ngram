@@ -14,4 +14,6 @@ ruby word_gram.rb n -F "%f[6]\n"
 
 単語Ngramの結果はresult-wordに保存される。
 
-デフォルトだと100件のデータ(../data/¥*¥*)を処理するようになっているので、10000件のデータ(../Wikipedia/¥*¥*)を処理する場合は MyFile.rb 3行目の data を Wikipedia に変更する。
+デフォルトだと100件のデータ(../data/**)を処理するようになっているので、
+
+10000件のデータ(../Wikipedia/**)を処理する場合は MyFile.rb 3行目の data を Wikipedia に変更する。
